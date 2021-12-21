@@ -15,7 +15,6 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    // 'import/extensions': ['warn', 'always', { vue: 'never', js: 'never' }],
     'max-len': ['warn', { code: 120 }],
     'func-names': ['warn', 'as-needed'],
     'operator-linebreak': ['error', 'after'],
